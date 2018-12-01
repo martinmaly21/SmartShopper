@@ -47,8 +47,16 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thumb" translatesAutoresizingMaskIntoConstraints="NO" id="sSy-LW-fF4">
+                                        <rect key="frame" x="51" y="98" width="240" height="237"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.33337151999999998" green="0.71766757969999995" blue="0.33325397969999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="85c-M6-bgk" appends="YES" id="yTw-Xd-4JL"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8SA-az-Qx6">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="104"/>
@@ -113,10 +121,16 @@
                         <outlet property="productView" destination="Mvc-3p-gtJ" id="tee-vO-3uC"/>
                         <outlet property="settingsButton" destination="48I-FK-Jvh" id="k9Q-Y0-0nF"/>
                         <outlet property="shoppingCartButton" destination="VbQ-nK-apo" id="LeB-3B-FvK"/>
+                        <outlet property="thumbPicture" destination="sSy-LW-fF4" id="36Z-lj-Goh"/>
                         <outlet property="yesButton" destination="b9U-Uv-rdU" id="otz-Zs-VdZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="85c-M6-bgk">
+                    <connections>
+                        <action selector="panCard:" destination="BYZ-38-t0r" id="Nms-FW-4RW"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
         </scene>
@@ -129,5 +143,6 @@
         <image name="Picture2" width="121" height="121"/>
         <image name="camera1" width="500" height="407"/>
         <image name="greyPic" width="273.60000610351562" height="274.55999755859375"/>
+        <image name="thumb" width="504" height="480"/>
     </resources>
 </document>
