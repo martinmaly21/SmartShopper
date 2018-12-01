@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50A5C97F21B30537001C4E19 /* productView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A5C97E21B30537001C4E19 /* productView.swift */; };
 		50D33D5221B2EEC1005F51CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D33D5121B2EEC1005F51CB /* AppDelegate.swift */; };
 		50D33D5421B2EEC1005F51CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D33D5321B2EEC1005F51CB /* ViewController.swift */; };
 		50D33D5721B2EEC1005F51CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D33D5521B2EEC1005F51CB /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50A5C97E21B30537001C4E19 /* productView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productView.swift; sourceTree = "<group>"; };
 		50D33D4E21B2EEC1005F51CB /* SmartShopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartShopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D33D5121B2EEC1005F51CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50D33D5321B2EEC1005F51CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				50D33D5121B2EEC1005F51CB /* AppDelegate.swift */,
 				50D33D5321B2EEC1005F51CB /* ViewController.swift */,
 				50D33D5521B2EEC1005F51CB /* Main.storyboard */,
+				50A5C97E21B30537001C4E19 /* productView.swift */,
 				50D33D5B21B2EEC4005F51CB /* Assets.xcassets */,
 				50D33D5D21B2EEC4005F51CB /* LaunchScreen.storyboard */,
 				50D33D6021B2EEC4005F51CB /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50A5C97F21B30537001C4E19 /* productView.swift in Sources */,
 				50D33D5A21B2EEC1005F51CB /* SmartShopper.xcdatamodeld in Sources */,
 				50D33D5421B2EEC1005F51CB /* ViewController.swift in Sources */,
 				50D33D5221B2EEC1005F51CB /* AppDelegate.swift in Sources */,
